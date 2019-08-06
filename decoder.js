@@ -1,3 +1,9 @@
+/* 
+ * Decoder function for The Things Network to unpack the payload of the Netvox 3-phase current monitor
+ *
+ * This function was created by Cameron Sharp at Sensational Systems - cameron@sensational.systems
+ */
+
 function Decoder(bytes, port) {
 
     var params = {
